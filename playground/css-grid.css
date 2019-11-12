@@ -1,0 +1,32 @@
+.grid-container {
+    display: grid;
+    color: green;
+    grid-template-columns: 20% 70% auto;
+    grid-template-rows: 100px 800px;
+}
+
+.grid-item {
+    background-color: lightblue;
+    border: 2px solid indigo;
+}
+
+.headerBar {
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+}
+
+body {
+    margin: 0px;
+}
+
+@media screen and (max-width: 700px) {
+    .rightBar, .leftBar {
+        display: none;
+    }
+
+    .content {
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+}

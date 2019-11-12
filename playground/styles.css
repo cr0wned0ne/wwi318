@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image:url('img/background.jpg');
+     background-repeat: no-repeat; 
+     background-size: cover;
+}
+
+p {
+    color:brown;
+}
+
+
+h1 {
+    color:green;
+    
+}
