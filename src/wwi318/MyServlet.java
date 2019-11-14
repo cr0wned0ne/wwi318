@@ -15,8 +15,10 @@ public class MyServlet extends HttpServlet{
 		String password = req.getParameter("password");
 		
 		if (username != null && password != null) {
+			System.out.println("Username: " + username + " Password: " + password);
 			resp.setStatus(resp.SC_OK);
 		} else {
+			System.out.println("No username & Password");
 			resp.sendError(resp.SC_UNAUTHORIZED);
 		}
 	}
