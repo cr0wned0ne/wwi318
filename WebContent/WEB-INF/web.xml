@@ -1,12 +1,12 @@
 <web-app xmlns="http://java.sun.com/xml/ns/javaee" version="2.5">
     <!-- Give each servlet a name -->
     <servlet>
-        <servlet-name>MyServlet</servlet-name>
-        <servlet-class>wwi318.MyServlet</servlet-class>
+        <servlet-name>MessageServlet</servlet-name>
+        <servlet-class>wwi318.MessageServlet</servlet-class>
     </servlet>
     
     <servlet-mapping>
-        <servlet-name>MyServlet</servlet-name>
-        <url-pattern>/login</url-pattern>
+        <servlet-name>MessageServlet</servlet-name>
+        <url-pattern>/message</url-pattern>
     </servlet-mapping>
 </web-app>

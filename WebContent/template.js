@@ -1,1 +1,0 @@
-<div style="background:gainsboro">Aus dem Hut gezogen</div>
