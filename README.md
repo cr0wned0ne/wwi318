@@ -14,7 +14,7 @@ The web-application uses the following technology stack:
 ### Preconditions and Installation
 The following preconditions are required to run this application:
 1. Tomcat running
-2. MySQL server running on port 3306 with username root, password start123
+2. MySQL server running on localhost port 3306 with username root, password start123
 
 Installation steps:
 1. Checkout this repository
